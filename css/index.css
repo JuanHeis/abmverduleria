@@ -1,0 +1,10 @@
+html, body{
+    margin: 0;
+}
+.header{
+    padding: 2vh;
+    background-color: aqua;
+}
+.titleApp{
+    margin: 0;
+}

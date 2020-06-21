@@ -3,10 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
     <title>Document</title>
 </head>
 <body>
-    
+
+    <header class="header">
+        <div>
+            <h1 class="titleApp">ABM</h1>
+        </div>
+    </header>
+    <section id='elementsList'>
+        <h2>
+            Lista
+        </h2>
+        <div id='elementsContainer'>
+            <div>
+                <h6>
+                    Elemento
+                </h6>
+                <button>
+                    Eliminar
+                </button>
+                <button>
+                    Editar
+                </button>
+            </div>
+        </div>
+    </section>
+    <section id="formElement">
+        <form>
+            <label for="">Nombre</label>
+            <input type="text" placeholder="Nombre" id='nameElement'>
+            <label for="">Cantidad</label>
+            <input type="number" placeholder="Cantidad" id='quantityElement'>
+            <input hidden type="text" id="idElement">
+            <button type="submit">Agregar</button>
+        </form>
+    </section>
     <script type="module" src="./js/main.js"></script>
 </body>
 </html>
