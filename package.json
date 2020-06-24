@@ -1,7 +1,7 @@
 {
   "name": "abmverduleria",
   "version": "1.0.0",
-  "description": "",
+  "description": "Proyecto de verduleria con Nino",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/JuanHeis/abmverduleria#readme",
   "dependencies": {
-    "json-server": "^0.16.1"
-  }
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "json-server": "^0.16.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {}
 }
