@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/index.css">
     <title>Document</title>
 </head>
+
 <body>
 
     <header class="header">
@@ -13,12 +15,13 @@
             <h1 class="titleApp">ABM</h1>
         </div>
     </header>
-    <section id='elementsList'>
-        <h2>
-            Lista
-        </h2>
-        <div id='elementsContainer'>
-            <div>
+    <div class="rowList">
+        <section id='elementsList'>
+            <h2 class="listTitle">
+                Lista
+            </h2>
+            <div style="border: 1px solid red;" id='elementsContainer'>
+
                 <h6>
                     Elemento
                 </h6>
@@ -28,9 +31,10 @@
                 <button>
                     Editar
                 </button>
+
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
     <section id="formElement">
         <form>
             <label for="">Nombre</label>
@@ -43,4 +47,5 @@
     </section>
     <script type="module" src="./js/main.js"></script>
 </body>
+
 </html>
